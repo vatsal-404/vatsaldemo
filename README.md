@@ -11,6 +11,7 @@ some keywords{
     <br>modified: changed,
     <br>staged: file is ready to be commited,
     <br>unmodified: unchanged
+    <br>
 }
 <br>
 git commands:{
@@ -28,5 +29,23 @@ git status :- to get the overall status of the whole repo(such as what are the t
 git commit -m "some message" :- it is the record of the change,
 <br>
 git clone <-some link-> :- Cloning a repository on our local machine
-
+<br>
+{
+    <br>
+    git init :- used to create a new git repo
+    <br>
+    git remote add origin <-link->
+    <br>
+    git remote -v :- to verify remote
+    <br>
+    git branch :- to check branch
+    <br>
+    git branch -M main :- to rename branch
+    <br>
+    git checkout <-branch name-> :- to navigate
+    <br>
+    git checkout -b <-new branch name-> :- to create a new branch
+    <br>
+    git branch -d <-branch name-> :- to delete branch
+    <br>
 }
